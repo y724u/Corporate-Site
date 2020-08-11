@@ -115,7 +115,7 @@ nav ul li a {
 div#mainimage{
   width: 960px;
   height: 300px;
-  background-color: rgb(142, 201, 201);
+  /* background-color: rgb(142, 201, 201); */
   margin-bottom: 30px;
 }
 
@@ -125,11 +125,44 @@ div#mainimage{
 
 div#left{
   width: 280px;
-  height: 300px;
-  background-color: gray;
+  height: auto;
+  /* background-color: gray; */
   float: left;
   margin-right: 30px;
 }
+
+div#left ul li{
+  width: 278px;
+  height: 48px;
+  background-color: #f5fbff;
+  margin-bottom: 10px;
+  border: 1px solid #63abd4;
+}
+
+div#left ul li a{
+  font-size: 16px;
+  font-weight: bold;
+  color: #555555;
+  text-decoration: none;
+  line-height: 50px;
+  
+  padding-left: 50px; 
+  display: block;
+}
+
+a#icon_tel{
+  background: url(img.nest/icon_tel.png) no-repeat 14px center;
+}
+
+a#icon_blog{
+  background: url(img.nest/icon_blog.png) no-repeat 14px center;
+}
+
+a#icon_voice{
+  background: url(img.nest/icon_voice.png) no-repeat 14px center;
+}
+
+
 
 /* ========================================
 	ライト
@@ -137,14 +170,38 @@ div#left{
 
 div#right{
   width: 650px;
-  height: 300px;
-  background-color: red;
+  height: auto;
+  /* background-color: red; */
   float: left;
+}
+
+div#right h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555555;
+}
+div#right dt {
+  font-size: 12px;
+  color: #a8a8a8;
+  float: left;
+  width: 94ox;
+  line-height: 40px;
+
+}
+
+div#right dd {
+  font-size: 13px;
+  color: #555555;
+  float: left;
+  width: 556px;
+  line-height: 40px;
 }
 
 div.clearfix {
   clear: both;
 }
+
+
 
 /* ========================================
 	フッター
